@@ -16,7 +16,6 @@ import {
 import { Label } from "@/components/ui/label";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Eye, EyeOff } from "lucide-react";
-import { EmailAddress } from "@clerk/nextjs/server";
 
 function signIn() {
   const { isLoaded, signIn, setActive } = useSignIn();
